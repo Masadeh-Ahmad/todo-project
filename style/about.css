@@ -1,0 +1,71 @@
+body{
+    
+    margin: auto;
+}
+header{
+    background-color: gray;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+footer{
+    background-color: gray;
+    
+}
+.logo{
+    width: 15%;
+
+    
+
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    font: ;
+    
+     
+}
+main{
+    margin: 10%;
+}
+nav a {
+    color: black;
+}
+section{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+section p{
+    border-style: groove;
+    
+    font-size: 200%;
+    
+}
+form label{
+    margin: 7%;  
+
+}
+input[type=text]{
+    width: 20%;
+    padding: 1% 2%;
+    margin: 1% 0;
+    
+}
+form{
+    display:
+}
+.m{
+
+    height: 70px;
+    
+}
+
+section img{
+    width: 20%;
+}

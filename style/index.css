@@ -1,0 +1,45 @@
+body{
+    
+    margin: auto;
+}
+header{
+    background-color: gray;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+footer{
+    background-color: gray;
+    
+}
+.logo{
+    width: 15%;
+
+    
+
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    font: ;
+    
+     
+}
+nav a {
+    color: black;
+}
+table{
+    background-color: oldlace;
+    width: 40%;
+}
+
+main{
+    margin: 16%;
+}
+main h1{
+    margin: 10%;
+}
