@@ -16,3 +16,28 @@ else if (gender == "female"){
 if (!askConfirm){
     alert("Welcome "+welcomeName);
 }
+function getAnswers(){
+    alert("Please Answer with Yes or No for the Next Questions ");
+    answerList.push(prompt("Is This your First Visit? ").toLowerCase());
+    answerList.push(prompt("Did you Find our Website Useful? ").toLowerCase());
+    answerList.push(prompt("Did you Like our Website? ").toLowerCase());
+    
+}
+function checkAnswer (){
+    for(var i=0;i<answerList.length;i++){
+        if (!(answerList[i]=="yes" || answerList[i]=="no")){ 
+            answerList[i] = "Invalid";
+        }  
+    } 
+}
+
+function printAnswers (){
+    for(var i=0;i<answerList.length;i++){
+        console.log(i+1 +"-"+ answerList[i]);
+    }
+}
+
+var answerList=[];
+getAnswers()
+checkAnswer();
+printAnswers();
